@@ -1,0 +1,871 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.10.10)  10 OCT 2026 12:40
+ restricted system commands enabled.
+**"Main code.tex"
+("./Main code.tex"
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/jules/.texlive2023/texmf-var/
+luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/jules/.texlive2023/texmf-var/
+luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/tex
+mf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/jules/.texlive2023/texmf
+-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count196
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_tmpa_int=\count267
+\l__fontspec_tmpb_int=\count268
+\l__fontspec_tmpc_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_strong_int=\count272
+\l__fontspec_strongdef_int=\count273
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@vietnamese=\language4
+\l@hebrew=\language5
+\l@afrikaans=\language6
+\l@interlingua=\language7
+\l@greek=\language8
+\l@esperanto=\language9
+\l@assamese=\language10
+\l@armenian=\language11
+\l@sanskrit=\language12
+\l@georgian=\language13
+\l@kannada=\language14
+\l@telugu=\language15
+\l@bengali=\language16
+\l@thai=\language17
+\l@pali=\language18
+\l@hindi=\language19
+\l@turkmen=\language20
+\l@marathi=\language21
+\l@malayalam=\language22
+\l@coptic=\language23
+\l@indonesian=\language24
+\l@tamil=\language25
+\l@panjabi=\language26
+\l@ibycus=\language27
+\l@ancientgreek=\language28
+\l@gujarati=\language29
+\l@ethiopic=\language30
+\l@monogreek=\language31
+\l@oriya=\language32
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count274
+\U@D=\dimen151
+\l@unhyphenated=\language33
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+Package babel Info: Main language set with 'main='. Except if you have
+(babel)             problems, prefer the default mechanism for setting
+(babel)             the main language, ie, as the last declared.
+(babel)             Reported on input line 4250.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/velthuis/hindi.ldf
+Language: hindi 2007/05/11 v1.0a Hindi support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-hi.tex
+UTF-8 Hindi hyphenation patterns
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-hi.tex)))
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/hi/babel-hindi.tex
+Package babel Info: Importing font and identification data for hindi
+(babel)             from babel-hi.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/velthuis/devanagari.sty
+Package: devanagari 2019/03/05 v2.17.1 LaTeX macros for Velthuis Devanagari
+\dev@chnum=\count275
+\itdim=\dimen152
+\anudep=\dimen153
+\anuwid=\dimen154
+)
+luaotfload | cache : Lookup cache loaded from /home/jules/.texlive2023/texmf-var
+/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 18 (nil) defines no feature for script dev2 with lang
+uage hin
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dev2
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script dev2
+ with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dev2
+ with language dflt
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script dev2
+ with language dflt
+
+Package fontspec Info: Font family 'NotoSansDevanagari(0)' created for font
+(fontspec)             'Noto Sans Devanagari' with options
+(fontspec)             [Ligatures=TeX,Script=Devanagari,Language=Hindi,RawFeatu
+re={family=rm},Script=Devanagari,Renderer=Node,RawFeature={fallback=englishfall
+back},AutoFakeSlant=0.2,ItalicFont=Noto
+(fontspec)             Sans
+(fontspec)             Devanagari,ItalicFeatures={FakeSlant=0.2},BoldItalicFont
+=Noto
+(fontspec)             Sans Devanagari,BoldItalicFeatures={FakeSlant=0.2}].
+(fontspec)
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoSansDevanagari:mode=node;script=dev2;language=df
+lt;+tlig;family=rm;fallback=englishfallback;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"NotoSansDevanagari/B:mode=node;script=dev2;language=
+dflt;+tlig;family=rm;fallback=englishfallback;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"NotoSansDevanagari:mode=node;script=dev2;language=df
+lt;slant=0.2;slant=0.2;+tlig;family=rm;fallback=englishfallback;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"NotoSansDevanagari:mode=node;script=dev2;language=df
+lt;slant=0.2;+tlig;family=rm;fallback=englishfallback;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen155
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks20
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks21
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box54
+\extrarowheight=\dimen178
+\NC@list=\toks24
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen179
+\TX@old@table=\dimen180
+\TX@old@col=\dimen181
+\TX@target=\dimen182
+\TX@delta=\dimen183
+\TX@cols=\count292
+\TX@ftn=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen184
+\enit@toks=\toks26
+\enit@inbox=\box56
+\enit@count@id=\count293
+\enitdp@description=\count294
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks27
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count295
+\c@continuedfloat=\count296
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count297
+)
+No file "Main code".aux.
+
+\openout1 = Main code.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+7.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/dn/m/n on input line 67.
+LaTeX Font Info:    Trying to load font information for U+dn on input line 67.
+
+(/usr/share/texlive/texmf-dist/tex/latex/velthuis/udn.fd
+File: Udn.fd 2004/08/03 v2.14
+)
+LaTeX Font Info:    ... okay on input line 67.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes:
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=702.78308pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 67.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 67.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 67.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 67.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 67.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 67.
+LaTeX Font Info:    Redeclaring math accent \check on input line 67.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 67.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 67.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/NotoSansDevanagari(0)/m/n on input l
+ine 67.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSansDevanagari(0)/m/n on input
+line 67.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/NotoSansDevanagari(0)/m/n --> TU/NotoSansDevanagari(
+0)/m/n on input line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NotoSansDevanagari(0)/m/it on input
+ line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSansDevanagari(0)/b/n on input
+line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/NotoSansDevanagari(0)/m/n --> TU/NotoSansDevanagari(
+0)/b/n on input line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/NotoSansDevanagari(0)/b/it on inpu
+t line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 67.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 67.
+
+Package babel Info: The following font families will use the default
+(babel)             settings for all or some languages:
+(babel)             * \sffamily = lmss
+(babel)               [lmsans10-regular]:+tlig; at 10.95pt
+(babel)             * \ttfamily = lmtt
+(babel)               [lmmono10-regular]: at 10.95pt
+(babel)             There is nothing intrinsically wrong with it, but
+(babel)             'babel' will no set Script and Language, which could
+(babel)             be relevant in some languages. If your document uses
+(babel)             these families, consider redefining them with \babelfont.
+(babel)             Reported on input line 67.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (16.15881pt too wide) in paragraph at lines 100--101
+\TU/NotoSansDevanagari(0)/m/it/10.95 मूल शब्द (\FONT25 Keywords\T
+U/NotoSansDevanagari(0)/m/it/10.95 ): \TU/NotoSansDevanagari(0)/m/n/10.95 स
+ं-स्थागत अर्थ-शा-स्त्र, खेल िस-
+द्धांत (\FONT25 Game Theory\TU/NotoSansDevanagari(0)/m/n/10.95 ),
+नैश सं-तुलन (\FONT25 Nash Equilibrium\TU/NotoSansDevanagari(0
+)/m/n/10.95 ),
+ []
+
+[1]
+
+Package natbib Warning: Citation `dobel1978' on page 2 undefined on input line
+114.
+
+
+Package natbib Warning: Citation `philp1997' on page 2 undefined on input line
+114.
+
+
+Package natbib Warning: Citation `thompson1993' on page 2 undefined on input li
+ne 114.
+
+
+Package natbib Warning: Citation `friedrich1940' on page 2 undefined on input l
+ine 116.
+
+
+Package natbib Warning: Citation `heidenheimer1970' on page 2 undefined on inpu
+t line 116.
+
+
+Package natbib Warning: Citation `gorwala1951' on page 2 undefined on input lin
+e 118.
+
+
+Package natbib Warning: Citation `shleifer1993' on page 2 undefined on input li
+ne 122.
+
+[2]
+
+Package natbib Warning: Citation `bardhan1997' on page 3 undefined on input lin
+e 124.
+
+
+Package natbib Warning: Citation `rothstein2011' on page 3 undefined on input l
+ine 124.
+
+
+Package natbib Warning: Citation `klitgaard1988' on page 3 undefined on input l
+ine 131.
+
+
+Package natbib Warning: Citation `becker1968' on page 3 undefined on input line
+ 138.
+
+[3]
+
+LaTeX Font Warning: Font shape `U/dn/b/n' undefined
+(Font)              using `U/dn/m/n' instead on input line 174.
+
+[4]
+
+Package natbib Warning: Citation `aidt2003' on page 5 undefined on input line 1
+96.
+
+
+Package natbib Warning: Citation `bardhan1997' on page 5 undefined on input lin
+e 196.
+
+
+Package natbib Warning: Citation `mishra2006' on page 5 undefined on input line
+ 196.
+
+
+Package natbib Warning: Citation `arkes1985' on page 5 undefined on input line
+203.
+
+
+Package natbib Warning: Citation `campbell2004' on page 5 undefined on input li
+ne 203.
+
+
+Package natbib Warning: Citation `keltner2003' on page 5 undefined on input lin
+e 206.
+
+
+Package natbib Warning: Citation `bandura1999' on page 5 undefined on input lin
+e 206.
+
+[5]
+
+Package natbib Warning: Citation `chugh2005' on page 6 undefined on input line
+211.
+
+
+Package natbib Warning: Citation `weber1978' on page 6 undefined on input line
+215.
+
+
+Package natbib Warning: Citation `wade1982' on page 6 undefined on input line 2
+15.
+
+
+Package natbib Warning: Citation `bicchieri2017' on page 6 undefined on input l
+ine 215.
+
+
+Package natbib Warning: Citation `santhanam1964' on page 6 undefined on input l
+ine 225.
+
+[6]
+
+Package natbib Warning: Citation `peisakhin2010' on page 7 undefined on input l
+ine 231.
+
+
+Package natbib Warning: Citation `muralidharan2016' on page 7 undefined on inpu
+t line 234.
+
+
+Overfull \hbox (93.25993pt too wide) in alignment at lines 253--261
+[] [] [] [] []
+ []
+
+
+LaTeX Warning: Reference `tab:game_payoff' on page 7 undefined on input line 27
+0.
+
+[7]
+
+Package natbib Warning: Citation `bertrand2001' on page 8 undefined on input li
+ne 279.
+
+
+Package natbib Warning: Citation `biderman1967' on page 8 undefined on input li
+ne 280.
+
+[8]
+
+Package natbib Warning: Citation `dyck2010' on page 9 undefined on input line 2
+94.
+
+
+Package natbib Warning: Citation `fisman2007' on page 9 undefined on input line
+ 299.
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 326--330
+[]\FONT25 Bandura\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 A\TU/NotoSansDev
+anagari(0)/m/n/10.95 . (1999).  \FONT25 Moral disengagement in the perpetration of
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 326--330
+\FONT25 inhumanities\TU/NotoSansDevanagari(0)/m/n/10.95 .  \FONT25 Personality
+and Social Psychology Review\TU/NotoSansDevanagari(0)/m/n/10.95 , \TU/NotoSansD
+evanagari(0)/b/it/10.95 3\TU/NotoSansDevanagari(0)/m/n/10.95 (3), 193--209.
+ []
+
+
+Underfull \hbox (badness 6995) in paragraph at lines 343--347
+[]\FONT25 Bertrand\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 M\TU/NotoSansDe
+vanagari(0)/m/n/10.95 ., \FONT25 & Mullainathan\TU/NotoSansDevanagari(0)/m/n/10
+.95 , \FONT25 S\TU/NotoSansDevanagari(0)/m/n/10.95 . (2001).  \FONT25 Do people mean what they say\TU/NotoSansDevanagari(0)/m/n/10.95 ?
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 360--364
+[]\FONT25 Campbell\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 W\TU/NotoSansDe
+vanagari(0)/m/n/10.95 . \FONT25 K\TU/NotoSansDevanagari(0)/m/n/10.95 ., \FONT25
+ Bonacci\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 A\TU/NotoSansDevanagari(0
+)/m/n/10.95 . \FONT25 M\TU/NotoSansDevanagari(0)/m/n/10.95 ., \FONT25 Shelton\T
+U/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 J\TU/NotoSansDevanagari(0)/m/n/10.9
+5 ., \FONT25 Exline\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 J\TU/NotoSansD
+evanagari(0)/m/n/10.95 . \FONT25 J\TU/NotoSansDevanagari(0)/m/n/10.95 ., \FONT2
+5 & Bushman\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 B\TU/NotoSansDevanagar
+i(0)/m/n/10.95 . \FONT25 J\TU/NotoSansDevanagari(0)/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 360--364
+\FONT25 of a self\TU/NotoSansDevanagari(0)/m/n/10.95 -\FONT25 report measure\TU
+/NotoSansDevanagari(0)/m/n/10.95 .  \FONT25 Journal of Personality Assessment\T
+U/NotoSansDevanagari(0)/m/n/10.95 , \TU/NotoSansDevanagari(0)/b/it/10.95 83\TU/
+NotoSansDevanagari(0)/m/n/10.95 (1), 29--45.
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 377--381
+[]\FONT25 Dyck\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 A\TU/NotoSansDevana
+gari(0)/m/n/10.95 ., \FONT25 Morse\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25
+ A\TU/NotoSansDevanagari(0)/m/n/10.95 ., \FONT25 & Zingales\TU/NotoSansDevanaga
+ri(0)/m/n/10.95 , \FONT25 L\TU/NotoSansDevanagari(0)/m/n/10.95 . (2010).  \FONT25 Who blows the whistle on corporate
+ []
+
+[11]
+Underfull \hbox (badness 1845) in paragraph at lines 394--397
+[]\FONT25 Gorwala\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 A\TU/NotoSansDev
+anagari(0)/m/n/10.95 . \FONT25 D\TU/NotoSansDevanagari(0)/m/n/10.95 . (1951).
+\FONT25 Report on public administration\TU/NotoSansDevanagari(0)/m/n/10.95 .  \
+FONT25 Planning Commission\TU/NotoSansDevanagari(0)/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 404--408
+[]\FONT25 Keltner\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 D\TU/NotoSansDev
+anagari(0)/m/n/10.95 ., \FONT25 Gruenfeld\TU/NotoSansDevanagari(0)/m/n/10.95 ,
+\FONT25 D\TU/NotoSansDevanagari(0)/m/n/10.95 . \FONT25 H\TU/NotoSansDevanagari(
+0)/m/n/10.95 ., \FONT25 & Anderson\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25
+ C\TU/NotoSansDevanagari(0)/m/n/10.95 . (2003).  \FONT25 Power\TU/NotoSansDevan
+agari(0)/m/n/10.95 , \FONT25 approach\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT
+25 and
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 433--437
+[]\FONT25 Philp\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 M\TU/NotoSansDevan
+agari(0)/m/n/10.95 . (1997).  \FONT25 Defining political corruption\TU/NotoSans
+Devanagari(0)/m/n/10.95 .  \FONT25 Political Studies\TU/NotoSansDevanagari(0)/m
+/n/10.95 , \TU/NotoSansDevanagari(0)/b/it/10.95 45\TU/NotoSansDevanagari(0)/m/n
+/10.95 (3), 436--462.
+ []
+
+[12]
+Underfull \hbox (badness 2846) in paragraph at lines 461--465
+[]\FONT25 Wade\TU/NotoSansDevanagari(0)/m/n/10.95 , \FONT25 R\TU/NotoSansDevana
+gari(0)/m/n/10.95 . (1982).  \FONT25 The system of administrative and political corruption\TU/NotoSansDevanagari(0)/m/n/10.95 : \FONT25 Canal
+ []
+
+
+Package natbib Warning: There were undefined citations.
+
+[13] ("./Main code.aux"
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 8945 strings out of 476553
+ 100000,1977958 words of node,token memory allocated
+ 576 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 18 attribute, 59 glue_spec
+, 11 attribute_list, 1 write nodes
+   avail lists: 1:1,2:638,3:161,4:25,5:160,6:34,7:6875,8:37,9:219,10:23,11:755
+ 30808 multiletter control sequences out of 65536+600000
+ 81 fonts using 10292663 bytes
+ 79i,9n,89p,4152b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/fonts/truetype/noto/NotoSansBengali-Regular.ttf></usr/share/fonts/tr
+uetype/noto/NotoSansDevanagari-Regular.ttf></usr/share/texlive/texmf-dist/fonts/
+truetype/google/noto/NotoSans-Regular.ttf></usr/share/fonts/truetype/noto/NotoSa
+nsDevanagari-Bold.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/velthuis/dvng10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on Main code.pdf (14 pages, 153596 bytes).
+
+PDF statistics: 113 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
