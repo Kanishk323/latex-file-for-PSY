@@ -10,9 +10,15 @@
 \usepackage[english, main=hindi]{babel}
 
 % Primary font configuration.
+\directlua{luaotfload.add_fallback("englishfallback", {
+    "Noto Sans:mode=node;",
+    "Noto Sans Bengali:mode=node;"
+})}
+
 \babelfont{rm}[
     Script=Devanagari,
-    Renderer=Harfbuzz, 
+    Renderer=Node,
+    RawFeature={fallback=englishfallback},
     AutoFakeSlant=0.2,
     ItalicFont=Noto Sans Devanagari,
     ItalicFeatures={FakeSlant=0.2},
